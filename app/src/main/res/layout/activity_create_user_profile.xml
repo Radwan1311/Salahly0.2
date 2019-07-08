@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C05F8"
+    tools:context="com.radwan1311.salahly.CreateUserProfile">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:background="#FEFEFE"
+        android:ems="10"
+        android:hint="  @string/NewUserEmail"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/city"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/PasswordEditText"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="30dp"
+        android:background="#FEFEFE"
+        android:ems="10"
+        android:hint="  @string/NewUserPassword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/PhoneEditText"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="22dp"
+        android:background="#FEFEFE"
+        android:ems="10"
+        android:hint="  @string/NewUserPhoneNumber"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
+
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="156dp"
+        android:background="#FEFEFE"
+        android:ems="10"
+        android:hint=" @string/NewUserCity"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Gender"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="30dp"
+        android:background="#FEFEFE"
+        android:ems="10"
+        android:hint="  @string/NewUserGender"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="177dp"
+        android:text="@string/NewUserAccount"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="310dp"
+        android:onClick="back"
+        android:text="@string/NewUserBack"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/saveButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="310dp"
+        android:text="@string/NewUserSAVE"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="227dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rdlogo" />
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

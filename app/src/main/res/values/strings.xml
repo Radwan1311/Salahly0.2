@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Salahly</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Logout">Logout</string>
+    <string name="action_My_Profile">My Profile</string>
+    <string name="facebook_app_id">191117105142034</string>
+    <string name="fb_login_protocol_scheme">fb191117105142034</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_My_profile">My Profile</string>
+    <string name="menu_Category">Category</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_Logout">Logout</string>
+
+
+    <string name="LoginButtonText">Login</string>
+    <string name="LoginText">Login</string>
+    <string name="EmailHintText">Email</string>
+    <string name="PasswordHintText">Password</string>
+    <string name="ForgetMyPasswordText">Forget My Password</string>
+    <string name="YoucanLoginUsingText">You Can Login Using</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Donthaveanaccount"> Do not have an account??</string>
+
+
+    <string name="NewUserAccount">New User Account</string>
+    <string name="NewUserEmail">Email</string>
+    <string name="NewUserCity">City</string>
+    <string name="NewUserPhoneNumber">Phone Number</string>
+    <string name="NewUserPassword">Password</string>
+    <string name="NewUserGender">Gender</string>
+    <string name="NewUserBack">Back</string>
+    <string name="NewUserSAVE">SAVE</string>
+
+
+    <string name="NewJobCardText">New Job Card</string>
+    <string name="JobUsername">Username</string>
+    <string name="JobPhoneNumber">Phone Number</string>
+    <string name="JobJobDiscription"> Job Discription</string>
+    <string name="JobCity"> City</string>
+    <string name="JobAddress"> Address</string>
+    <string name="JobInsertWorkImages"> Select Work Images</string>
+    <string name="JobBACK">BACK</string>
+    <string name="JobSAVE">SAVE</string>
+
+
+
+    <string name="EditUserProfileText">Edit User Profile</string>
+    <string name="editUsername">Username</string>
+    <string name="editPhoneNumber">Phone Number</string>
+    <string name="editJobDiscription">Job Discription</string>
+    <string name="editCity">City</string>
+    <string name="editAdress">Address</string>
+    <string name="editResetForgetPassword">Reset/Forget Password</string>
+    <string name="editEditWorkImages">Edit Work Images</string>
+    <string name="editSAVE">SAVE</string>
+    <string name="editBACK">BACK</string>
+
+
+
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="YourRegisteredEmail">Your Registered Email</string>
+    <string name="ResetPassword">Reset Password</string>
+
+
+    <string name="Communicate">Communicate</string>
+
+
+
+    <string name="userProfileName">Profile Name</string>
+    <string name="userProfileJob"> Profile Job</string>
+    <string name="userEditProfileCard">Edit Profile/Card</string>
+    <string name="userProfileCity">Profile City</string>
+    <string name="userProfilePhone">Profile Phone</string>
+    <string name="YouHaveNoInformationYetPleaseCreateYourFirstCard">You Have No Information Yet , Please Create Your First Card</string>
+    <string name="userProfileAddress"> Profile Address</string>
+    <string name="userCreateCard">Create Card</string>
+    <string name="userWorkImages">Work Images</string>
+
+
+    <string name="name">name</string>
+    <string name="job">job</string>
+    <string name="Phone">Phone</string>
+    <string name="City">City</string>
+    <string name="ViewProfile">View Profile</string>
+
+    <string name="Salahly">Salahly</string>
+    <string name="AllYouNeedInOnePlace">All You Need In One Place</string>
+
+    <string name="Cards">Cards</string>
+
+
+    <string name="Address2">Address : </string>
+    <string name="City2">City : </string>
+    <string name="Phone2">Phone : </string>
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salahly</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="action_Logout">تسجيل الخروج</string>
+    <string name="action_My_Profile">الصفحة الشخصية</string>
+    <string name="facebook_app_id">191117105142034</string>
+    <string name="fb_login_protocol_scheme">fb191117105142034</string>
+
+    <string name="menu_home">الصفحة الرئيسية</string>
+    <string name="menu_My_profile">الصفحة الشخصية</string>
+    <string name="menu_Category">تصنيفات</string>
+    <string name="menu_Settings">الاعدادات</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_send">ارسال</string>
+    <string name="menu_Logout">تسجيل الخروج</string>
+
+
+    <string name="LoginButtonText">دخول</string>
+    <string name="LoginText">تسجيل الدخول</string>
+    <string name="EmailHintText"> حساب الدخول </string>
+    <string name="PasswordHintText">كلمة المرور</string>
+    <string name="ForgetMyPasswordText">نسيت كلمة المرور</string>
+    <string name="YoucanLoginUsingText">يمكنك الدخول بأستخدام</string>
+    <string name="SignUp">انشاء حساب</string>
+    <string name="Donthaveanaccount"> لا تمتلك حساب ؟؟</string>
+
+
+    <string name="NewUserAccount">  انشاء حساب جديد</string>
+    <string name="NewUserEmail"> الايميل </string>
+    <string name="NewUserCity"> المدينة </string>
+    <string name="NewUserPhoneNumber">  رقم الهاتف </string>
+    <string name="NewUserPassword"> كلمة المرور </string>
+    <string name="NewUserGender"> النوع </string>
+    <string name="NewUserBack"> رجوع </string>
+    <string name="NewUserSAVE"> حفظ </string>
+
+
+    <string name="NewJobCardText">انشاء كارت جديد</string>
+    <string name="JobUsername">اسم المستخدم</string>
+    <string name="JobPhoneNumber">رقم الهاتف</string>
+    <string name="JobJobDiscription"> الوظيفه</string>
+    <string name="JobCity"> المدينة / المحافظة </string>
+    <string name="JobAddress"> العنوان </string>
+    <string name="JobInsertWorkImages"> اختر صور لعملك </string>
+    <string name="JobBACK"> رجوع </string>
+    <string name="JobSAVE"> حفظ </string>
+
+
+    <string name="EditUserProfileText">تعديل البيانات الشخصية</string>
+    <string name="editUsername">اسم المستخدم</string>
+    <string name="editPhoneNumber">رقم الهاتف</string>
+    <string name="editJobDiscription">الوظيفة</string>
+    <string name="editCity">المدينة</string>
+    <string name="editAdress">العنوان</string>
+    <string name="editResetForgetPassword">اعادة تعيين كلمة المرور</string>
+    <string name="editEditWorkImages">تعديل صور العمل</string>
+    <string name="editSAVE">حفظ</string>
+    <string name="editBACK">رجوع</string>
+
+
+
+    <string name="ForgetPassword">نسيت كلمة المرور</string>
+    <string name="YourRegisteredEmail">الايميل الذى تم التسجيل به</string>
+    <string name="ResetPassword">اعادة التعيين </string>
+
+
+    <string name="Communicate"> تواصل مع المزيد </string>
+
+
+    <string name="userProfileName">اسم المستخدم</string>
+    <string name="userProfileJob"> الوظيفة</string>
+    <string name="userEditProfileCard">تعديل البيانات الشخصية / الكارد</string>
+    <string name="userProfileCity">المدينة</string>
+    <string name="userProfilePhone">رقم الهاتف</string>
+    <string name="YouHaveNoInformationYetPleaseCreateYourFirstCard">لم يتم ادخال اى بيانات بعد , من فضلك قم بأننشاء اول كارد لك</string>
+    <string name="userProfileAddress"> العنوان</string>
+    <string name="userCreateCard">انشاء كارد</string>
+    <string name="userWorkImages">صور العمل</string>
+
+
+    <string name="name">الاسم</string>
+    <string name="job">الوظيفة</string>
+    <string name="Phone">رقم الهاتف</string>
+    <string name="City">المدينة</string>
+    <string name="ViewProfile">عرض البيانات</string>
+
+    <string name="Salahly">صلحلى</string>
+    <string name="AllYouNeedInOnePlace">كل ما تحتاجه فى مكان واحد</string>
+
+    <string name="Cards">الكروت</string>
+
+
+    <string name="Address2">العنوان :  </string>
+    <string name="City2">المدينة :  </string>
+    <string name="Phone2">الهاتف :  </string>
+
+</resources>

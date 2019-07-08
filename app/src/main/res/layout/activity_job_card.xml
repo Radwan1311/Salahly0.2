@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.radwan1311.salahly.JobCard">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="176dp"
+        android:text="@string/NewJobCardText"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditProfileName"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:background="#FCFCFC"
+        android:ems="10"
+        android:hint=" @string/JobUsername "
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditProfilePhoneNumber"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:background="#FCFCFC"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" @string/JobPhoneNumber "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditProfileName" />
+
+    <EditText
+        android:id="@+id/EditProfileJobDiscription"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:background="#FCFCFC"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" @string/JobJobDiscription "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditProfilePhoneNumber" />
+
+    <ImageView
+        android:id="@+id/EditProfileImage"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:background="#FCFCFC"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/EditProfileName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_menu_camera" />
+
+    <EditText
+        android:id="@+id/EditProfileCity"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="#FCFCFC"
+        android:ems="10"
+        android:hint=" @string/JobCity "
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditProfileJobDiscription" />
+
+    <EditText
+        android:id="@+id/EditProfileAddress"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="22dp"
+        android:background="#FCFCFC"
+        android:ems="10"
+        android:hint=" @string/JobAddress "
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/EditProfileCity"
+        app:layout_constraintTop_toBottomOf="@+id/EditProfileImage" />
+
+    <TextView
+        android:id="@+id/workImagesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/JobInsertWorkImages"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditProfileCity" />
+
+    <ImageView
+        android:id="@+id/WorkImage1"
+        android:scaleType="fitXY"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        app:layout_constraintEnd_toStartOf="@+id/WorkImage3"
+        app:layout_constraintStart_toEndOf="@+id/WorkImage2"
+        app:layout_constraintTop_toBottomOf="@+id/workImagesText"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageView
+        android:id="@+id/WorkImage3"
+        android:scaleType="fitXY"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workImagesText"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageView
+        android:id="@+id/WorkImage2"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:scaleType="fitXY"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workImagesText"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/EditProfileBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="cardbackbutton"
+        android:text="@string/JobBACK"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/EditProfileSaveButton"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/EditProfileSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/JobSAVE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

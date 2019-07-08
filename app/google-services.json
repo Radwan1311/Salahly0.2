@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70937774713",
+    "firebase_url": "https://salahty1311.firebaseio.com",
+    "project_id": "salahty1311",
+    "storage_bucket": "salahty1311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70937774713:android:4b1d6d552fa798ee",
+        "android_client_info": {
+          "package_name": "com.radwan1311.salahly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70937774713-96je0snigl2m3erd1nsp9rp1n98jr66v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.radwan1311.salahly",
+            "certificate_hash": "1b38be310db0ba56a0c162990a1d670bbaaa422e"
+          }
+        },
+        {
+          "client_id": "70937774713-cim4theanhe3fo9j0omfajtvl08m9m49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIMpsF5F3h47S9HWg5cU1FbgoVH0IvCPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70937774713-cim4theanhe3fo9j0omfajtvl08m9m49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
